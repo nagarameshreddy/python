@@ -1,0 +1,20 @@
+print("isinstance")
+print(isinstance(2,int))
+print(isinstance(2,float))
+print(isinstance(4.0,float))
+print(isinstance("string",str))
+lista=[1,2,3,4,5]
+print(isinstance(lista,list))
+print(lista)
+lista.sort(reverse=True)
+print(lista)
+listb=[1,2,3,4,5,6,10,7,22,9,8]
+print(listb)
+print(sorted(listb, reverse=True))
+for i in listb:
+	print(i)
+	lista.append(i)
+print(lista)
+print(sorted(lista))
+print(sorted(lista,reverse=True))
+print(sorted(lista,reverse=False))

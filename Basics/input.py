@@ -1,0 +1,8 @@
+print ("Input from keyboard")
+a=input("Enter string")
+print(a,type(a),"\n")
+b=int(input("enter number"))
+print(b,type(b),"\n")
+print ("Enter float value")
+c=float(eval(input()))
+print(c,type(c))
